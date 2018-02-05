@@ -7,7 +7,7 @@ public class BeanLifeCycle {
   
     public static void main(String[] args) {  
   
-        System.out.println("现在开始初始化容器");  
+        System.out.println("现在开始初始化容器111");  
   
         ApplicationContext factory = new ClassPathXmlApplicationContext(  
                 "springBeanTest/beans.xml");  
